@@ -1,0 +1,124 @@
+// TestimonialsSection.tsx
+const TestimonialsSection = () => {
+  return (
+    <section className="py-16 bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-4xl font-bold text-center mb-12">What Our Customers Say</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {testimonials.map((testimonial, index) => (
+            <div key={index} className="bg-white p-6 rounded-xl shadow-lg">
+              <div className="flex items-center mb-4">
+                <img 
+                  src={testimonial.image} 
+                  alt={testimonial.name} 
+                  className="w-12 h-12 rounded-full"
+                />
+                <div className="ml-4">
+                  <h4 className="font-semibold">{testimonial.name}</h4>
+                  <p className="text-gray-500 text-sm">{testimonial.location}</p>
+                </div>
+              </div>
+              <p className="text-gray-600">{testimonial.text}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+// StatsSection.tsx
+const StatsSection = () => {
+  return (
+    <section className="py-12 bg-yellow-500">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          <div className="text-white">
+            <div className="text-4xl font-bold mb-2">15+</div>
+            <div className="text-yellow-100">Years of Experience</div>
+          </div>
+          <div className="text-white">
+            <div className="text-4xl font-bold mb-2">50k+</div>
+            <div className="text-yellow-100">Happy Customers</div>
+          </div>
+          <div className="text-white">
+            <div className="text-4xl font-bold mb-2">30+</div>
+            <div className="text-yellow-100">Expert Chefs</div>
+          </div>
+          <div className="text-white">
+            <div className="text-4xl font-bold mb-2">100+</div>
+            <div className="text-yellow-100">Dishes</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+// AboutSection.tsx
+const AboutSection = () => {
+  return (
+    <section className="py-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 className="text-4xl font-bold mb-6">Our Story</h2>
+            <p className="text-gray-600 mb-6">
+              Founded in 2008, Great Taste has been serving exceptional cuisine for over 15 years. 
+              Our passion for quality ingredients and innovative recipes has made us a favorite 
+              among food enthusiasts.
+            </p>
+            <button className="bg-yellow-500 text-white px-6 py-3 rounded-lg hover:bg-yellow-600 transition-colors">
+              Learn More
+            </button>
+          </div>
+          <div className="grid grid-cols-2 gap-4">
+            <img src="/chef1.jpg" alt="Chef" className="rounded-lg shadow-lg" />
+            <img src="/restaurant.jpg" alt="Restaurant" className="rounded-lg shadow-lg mt-8" />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+// NewsletterSection.tsx
+const NewsletterSection = () => {
+  return (
+    <section className="py-12 bg-gray-900">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 className="text-3xl font-bold text-white mb-4">Join Our Newsletter</h2>
+        <p className="text-gray-400 mb-8">Get special offers and first look at new dishes</p>
+        <form className="max-w-md mx-auto flex gap-4">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            className="flex-1 px-4 py-2 rounded-lg focus:ring-2 focus:ring-yellow-500"
+          />
+          <button className="bg-yellow-500 text-white px-6 py-2 rounded-lg hover:bg-yellow-600 transition-colors">
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </section>
+  );
+};
+
+
+
+Añadir una sección de Newsletter
+Integrar redes sociales
+Mostrar premios y certificaciones
+Añadir un blog con recetas y noticias
+Implementar un sistema de reservas
+Añadir un mapa de ubicación
+Incluir una sección de FAQ
+Mostrar horarios de atención
+Agregar una galería de fotos
+Implementar un chat de soporteEstos componentes ayudarán a:
+
+Aumentar la credibilidad
+Mejorar el engagement
+Optimizar la conversión
+Proporcionar más información valiosa
+Crear una experiencia más completa

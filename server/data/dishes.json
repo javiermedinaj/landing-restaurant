@@ -1,0 +1,23 @@
+[
+  {
+    "id": 2,
+    "name": "Almuerzo",
+    "description": "Almuerzo chill on \r\n",
+    "price": "9",
+    "image": "1732750736837-dinner2.avif"
+  },
+  {
+    "id": 3,
+    "name": "Fideos",
+    "description": "Fideos o fritas no se q son",
+    "price": "12",
+    "image": "1732750872160-dinner3.avif"
+  },
+  {
+    "id": 4,
+    "name": "Comidad de ¿?",
+    "description": "Tengo q dejar de robarme imagenes",
+    "price": "2018",
+    "image": "1732751061773-dinner4.avif"
+  }
+]
